@@ -1,4 +1,4 @@
-FROM smatochkin/elasticsearch:1.1.1
+FROM smatochkin/elasticsearch:1.3.4
 
 # Install Logstash binaries
 RUN curl -Ls https://download.elasticsearch.org/logstash/logstash/logstash-1.4.2.tar.gz | \
